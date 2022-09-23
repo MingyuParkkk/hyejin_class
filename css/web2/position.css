@@ -1,0 +1,48 @@
+*{margin: 0; padding: 0;}
+body{
+    height: 3000px;
+}
+.box{
+    width: 1300px;
+    border: 5px solid;
+    position: relative;
+    height: 600px;
+    margin: 100px;
+}
+img{
+    width: 500px;
+    
+}
+
+.a{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+                        /* x,y값 */
+}
+
+.a{
+    z-index: 1;
+    /* 요소의 순서를 결정하는 속성 기본값은 0이다. */
+}
+
+/* .b{
+    left: 700px;
+    top: 100px;
+} */
+
+.box1{
+    width: 1300px;
+    height: 600px;
+    border: 5px solid;
+    margin: 100px;
+    position: relative;
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

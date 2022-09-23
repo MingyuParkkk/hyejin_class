@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    color: #666;
+}
+
+#idslector{
+    font-size: 30px;
+    color: darkred;
+}
+.parents{
+    width: 500px;
+    height: 300px;
+    background-color: burlywood;
+}
+.parents>div{
+    background-color: blue;
+    color: white;
+}
+.parents>div>div{
+    background-color: violet;
+}
+

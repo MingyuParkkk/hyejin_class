@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+				<link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+				<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;500&display=swap" rel="stylesheet">
+    <title>Document</title>
+				<style>
+					*{
+						margin: 0;
+						padding: 0;
+					}
+					/* *:전체선택자(모든요소를 다 선택) */
+					
+					body{
+						background-color: #eee;
+						color: white;
+						font-family: 'East Sea Dokdo', cursive;
+					}
+					/* h4 (스타일) : 태그선택자*/
+					/* 같은 선택자일 경우에는 아래쪽에 있는 스타일이 적용됨 */
+					
+					h4{
+						background-color: beige;
+						color: blue;
+						font-family: 'Inter', sans-serif;
+						font-size:30px;
+					}
+					h1{
+						background-color: blue;
+					}
+					p{
+						background-color: blueviolet;
+					}
+					div{
+						background-color: red;
+						width: 500px;
+						height: 300px;
+						text-align: center;
+						line-height: 300px;
+						margin-bottom: 40px;
+					}
+					/* 블록 요소이고 크기값을 지정할 수 있음
+					요소의 가로 가운데 정렬을 text-align 속성을 이용
+					margin값은 위, 아래, 왼쪽, 오른족 모두 적용 가능
+					*/
+					span{
+						background-color: black;
+						color: azure;
+						width: 500px;
+						height: 200px;
+						margin-right: 50px;
+						margin-bottom: 50px;
+						margin-left: 50px;
+						margin-top: 50px;
+					}
+					/* span 태그는 오른쪽 왼쪽의 마진값은 적용되고 위쪽 아래쪽 마진값은 적용 안됨
+					크기값을 지정할 수 없으면 기본 크기는 콘텐츠의 너비값임 */
+				</style>
+</head>
+<body>
+	<div>
+		<!-- 요소를 담는 그릇 -->
+		Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+	</div>
+	<div>
+		<img src="/img/jejuimg6.jpg" alt="">
+	</div>
+	<div>
+		<img src="/img/jejuimg7.jpg" alt="">
+	</div>
+	<span>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	</span>
+	<span>
+		Lorem ipsum dolor sit amet consectetur adipisicing elit.
+	</span>
+	<h4>Artwork Concept Drawing</h4>    
+	<h1>아트웍 컨셉 드로잉</h1>
+	<!--태그명 속성="속성값"-->
+	<p>편집 포트폴리오에 포함될 수 있는 북커버 및 동화책 삽화 제작, 웹 포트폴리오에 포함될 수 있는 아트웍 실습, 3D 캐릭터 디자인이나 모션 그래픽에 사용할 수 있는 아트웍 표현에 대하여 학습합니다.</p>
+</body>
+</html>

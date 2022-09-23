@@ -1,0 +1,66 @@
+ul{
+    overflow: hidden;
+}
+li{
+    float: left;
+    list-style: none;
+    padding: 20px;
+    border: 1px solid black;
+    color: white;
+}
+li:nth-child(2n+1){
+    background-color: black;
+    color: yellow;
+}
+li:nth-child(2n){
+    background-color: gray;
+    color: pink;
+}
+li:first-child{
+    color: red;
+}
+li:last-child{
+    color: green;
+}
+
+p:hover, li:hover{
+    background-color: blueviolet;
+}
+p:active{
+    color: yellow;
+}
+p::selection{
+    color: red;
+}
+li,p{
+    font-size: 20px;
+}
+/* ,로 지정하는 그룹 선택자 */
+
+.after{
+    overflow: hidden;
+}
+.after li{
+    float: left;
+    color: #333;
+    background-color: transparent;
+    border: none;
+    padding: 5px;
+}
+
+.after li::after{
+    content: "|";
+    padding-left: 5px;
+}
+.after li:last-child::after{
+    content: "";
+}
+
+.box1::before{
+    content: "a";
+    width: 10px;
+    height: 5px;
+    background-color: red;
+    color: white;
+    margin-right: 5px;
+}

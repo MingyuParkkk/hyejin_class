@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{margin: 0; padding: 0;}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.form-wrapper{
+    width: 40%;
+    margin: 50px auto;
+    background-color: rgba(213, 213, 213, 0.1);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+    /* box-shadow: x값 y값 블러값 */
+    padding: 50px;
+}
+
+label{
+    display: block;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    outline: none;
+    border: 0.2px solid rgba(0, 0, 0, 0.3);
+}
+
+input:focus{
+    border: 0.5px solid rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.3);
+}
+
+div{
+    margin-bottom: 20px;
+}
+
+.form-date, .form-time{
+    float: left;
+    width: 45%;
+}
+
+.form-date{
+    margin-right: 10%;
+}
+
+fieldset{
+    border: none;
+}
+
+legend{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+fieldset{width: 100%;}
+
+fieldset>input{
+    width: 42%;
+    margin-bottom: 10px;
+}
+
+fieldset>input:nth-child(1), fieldset>input:nth-child(3){
+    margin-right: 2%;
+}
+
+.btn{
+    border: none;
+    outline: none;
+    background-color: purple;
+    color: white;
+    padding: 15px 0;
+    border-radius: 5px;
+}

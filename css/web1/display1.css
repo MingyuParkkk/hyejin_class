@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.camera{
+    width: 50px;
+    float: left;
+}
+h2{
+    float: left;
+}

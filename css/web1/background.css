@@ -1,0 +1,28 @@
+body{
+    height: 5000px;
+}
+.bg{
+    width: 500px;
+    height: 300px;
+    background: #666 url("../img/img2.jpg") no-repeat center/cover;
+    background-attachment: local;
+    font-size: 20px;
+    overflow: scroll;
+}
+
+.opa{
+    width: 500px;
+    height: 300px;
+    background-color: red;
+    margin: 50px;
+    opacity: 0;
+}
+.opa:hover{
+    opacity: 1;
+}
+.alpa{
+    width: 500px;
+    height: 300px;
+    background-color: rgba(255, 0, 0, 0.5);
+    margin: 50px;
+}

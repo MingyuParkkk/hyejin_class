@@ -1,0 +1,18 @@
+*{margin: 0; padding: 0;}
+body{height: 3000px;}
+.container{
+    width: 1024px;
+    height: 768px;
+    margin: 50px auto;
+}
+video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.box{
+    width: 800px;
+    height: 600px;
+    object-fit: cover;
+    margin: 0 auto;
+}

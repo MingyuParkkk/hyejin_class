@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.box{
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+    box-sizing: border-box;
+    margin: 50px;
+}
+.text{
+    overflow: auto;
+}
+.img{
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.text::-webkit-scrollbar{
+    width: 20px;
+}
+.text::-webkit-scrollbar-thumb{
+    background-color: red;
+}
+.text::-webkit-scrollbar-track{
+    background-color: blue;
+}
+
+.img::-webkit-scrollbar{
+    width: 20px;
+}
+.img::-webkit-scrollbar-thumb{
+    background-color: beige;
+}
+.img::-webkit-scrollbar-track{
+    background-color: yellowgreen;
+}

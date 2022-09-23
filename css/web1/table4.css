@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 1920px;
+    overflow: hidden;
+}
+table{
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+}
+
+caption{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 20px auto;
+}
+.table1 thead tr th{
+    width: 900px;
+    margin: 20px auto;
+    border: 2px solid rgb(200, 200, 200);
+    padding: 10px;
+    color: rgb(200, 200, 200);
+}
+.table1 th:first-child{
+    color: black;
+    border-bottom: none;
+    border-top-color: black;
+}
+
+.table2 thead tr th{
+    margin-top: 10px;
+    background-color: rgb(242, 242, 242);
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid rgb(225, 225, 225);
+}
+
+td{
+    padding: 20px;
+    border-bottom: 1px solid rgb(233, 233, 233);
+}
+
+.table2 tr td:nth-child(){
+    font-weight: 600;
+}
+
+.text1{
+    text-align: right;
+    width: 70%;
+    margin: 15px auto;
+}

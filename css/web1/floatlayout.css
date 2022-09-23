@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    /* 부모의 글자색을 상속 */
+}
+li{
+    list-style: none;
+}
+
+/* 네비 스타일 시작 */
+.navi{
+    width: 1200px;
+    height: 60px;
+    /* background-color: beige; */
+    margin: 20px auto;
+    overflow: hidden;
+    /* 자식한테 float: left 주면 부모한테 overflow:hidden 주기 */
+}
+.navi>a{
+    color: #666;
+    font-size: 30px;
+    float: left;
+    line-height: 60px;
+}
+.navi>a:hover{
+    color: #333;
+    font-weight: 700;
+}
+.list1{
+    overflow: hidden;
+}
+.list1 ul{
+    float: right;
+    overflow: hidden;
+}
+.list1 ul li{
+    float: left;
+    margin-right: 100px;
+}
+.list1 ul li:nth-child(4){
+    margin-right: 0;
+}
+.list1 ul li a{
+    line-height: 60px;
+}
+.list1 ul li a:hover{
+    color: rgb(238, 193, 13);
+    font-weight: 600;
+    text-decoration:underline;
+}
+
+/* 섹션01 스타일 시작 */
+.sec01{
+    width: 1200px;
+    background-color: #ddd;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.img1_1{
+    text-align: center;
+    margin-top: 50px;
+}
+.text1{
+    width: 400px;
+    text-align: center;
+    margin: 50px auto;
+}
+.text1 p{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+/* text-align은 태그의 인라인 요소의 가로 정렬을 설정한다. */
+
+/* 섹션02 스타일 시작 */
+.sec02{
+    width: 100%;
+    height: 700px;
+    background-color: #666;
+    overflow: hidden;
+    /* text-align: center; */
+}
+.text2{
+    width: 30%;
+    text-align: center;
+    margin: 50px auto;
+    color: white;
+}
+.text2_2{
+    line-height: 24px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.sec02_img{
+    float: left;
+    overflow: hidden;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    width: 940px;
+}
+.sec02_img .img2{
+    float: left;
+    /* background-color: beige; */
+    /* border: 2px solid black; */
+    width: 300px;
+    margin-right: 20px;
+}
+.sec02_img .img2:nth-child(3){
+    margin-right: 0;
+}
+.sec02_box .fa-arrow-left{
+    float: left;
+    line-height: 364px;
+    color: white;
+    font-size: 20px;
+    margin-right: 20px;
+}
+.sec02_box .fa-arrow-right{
+    float: left;
+    line-height: 364px;
+    color: white;
+    font-size: 20px;
+    margin-left: 20px;
+}
+.img2 p{
+    color: white;
+    margin-top: -100px;
+    text-align: center;
+}
+.sec02_box{
+    width: 1100px;
+    margin: 80px auto 0;
+}
+
+/* 섹션03 스타일 시작 */
+.sec03{
+    width: 100%;
+    background-color: #ddd;
+    height: 700px;
+    overflow: hidden;
+}
+.sec03_box{
+    width: 90%;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.sec03_box .fa-arrow-left{
+    float: left;
+    line-height: 300px;
+    color: black;
+    font-size: 20px;
+    margin-right: 10px;
+}
+.sec03_box .fa-arrow-right{
+    float: left;
+    line-height: 300px;
+    color: black;
+    font-size: 20px;
+    margin-left: 10px;
+}
+.imgbox{
+    float: left;
+}
+.text3{
+    width: 1600px;
+    margin: 0 auto;
+}
+.text3_1{
+    width: 1200px;
+    float: left;
+}
+.btn{
+    width: 200px;
+    height: 50px;
+    background-color: #666;
+    text-align: center;
+    line-height: 50px;
+    color: white;
+    border-radius: 25px;
+    float: right;
+}

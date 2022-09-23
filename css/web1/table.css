@@ -1,0 +1,16 @@
+table{
+    border: 1px solid;
+    border-collapse: collapse;
+    /* 겹쳐지는 선 합치기 */
+    /* border-collapse: separate; -> 기본값 */
+}
+td{
+    border: 2px solid;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+}
+caption{
+    font-size: 20px;
+    font-weight: 600;
+}

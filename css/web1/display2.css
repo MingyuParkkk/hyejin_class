@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: #666;
+}
+li{
+    list-style: none;
+}
+.header{
+    width: 1200px;
+    height: 50px;
+    background-color: #eee;
+    margin: 20px auto;
+}
+.logo{
+    margin-left: 50px;
+    line-height: 50px;
+    display: inline-block;
+}
+.logo a{
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navi{
+    width: 70%;
+    display: inline-block;
+    text-align: center;
+}
+.navi li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.util{
+    display: inline-block;
+}
+.util li{
+    display: inline-block;
+    margin-left: 30px;
+}

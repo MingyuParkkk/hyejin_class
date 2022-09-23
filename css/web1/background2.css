@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    width: 1200px;
+    height: 420px;
+    background-color: white;
+    margin: 200px auto;
+    padding: 20px 40px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.bgimg{
+    width: 530px;
+    height: 380px;
+    background: url(/img/jeju1.jpg) no-repeat center/cover;
+    display: inline-block;
+}
+.bgcolor{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+.bgtext{
+    width: 80%;
+    margin: 10% auto;
+    text-align: center;
+    color: white;
+}
+.bgtext>p:first-child{
+    color: hotpink;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.bgtext>p:nth-child(3){
+    padding: 10px 0;
+}
+.bgtext>.btn{
+    width: 200px;
+    padding: 10px 20px;
+    background-color: hotpink;
+    margin: 10px auto;
+}
+
+.bgimg2{
+    width: 530px;
+    height: 380px;
+    margin-left: 60px;
+    background: url(/img/jeju2.jpg) no-repeat center/cover;
+    float: right;
+}
+.bgcolor2{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 255, 0.5);
+    overflow: hidden;
+}
+.bgtext2{
+    width: 80%;
+    margin: 10% auto;
+    text-align: center;
+    color: white;
+}
+.bgtext2>p:first-child{
+    color: orange;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 10px 0;
+}
+.bgtext2>p:nth-child(3){
+    padding: 10px 0;
+}
+.bgtext2>.btn2{
+    width: 200px;
+    padding: 10px 20px;
+    background-color: orange;
+    margin: 10px auto;
+}
